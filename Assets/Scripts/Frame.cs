@@ -24,6 +24,6 @@ public class Frame : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(ScreenSize.x + "   " + ScreenSize.y);
+       
 	}
 }

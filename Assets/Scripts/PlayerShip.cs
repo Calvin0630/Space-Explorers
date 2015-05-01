@@ -11,13 +11,13 @@ public class PlayerShip : MonoBehaviour {
     Vector3 PlayerToMouse;
     public GameObject Projectile;
     public static Vector3 PlayerPos;
-    Rigidbody RBody;
+    Rigidbody2D RBody;
 	// Use this for initialization
 	void Start () {
         ShotDelay = 10;
         SpeedOfMotion = .25f;
         SpeedOfBullet = 10;
-        RBody = gameObject.GetComponent<Rigidbody>();
+        RBody = gameObject.GetComponent<Rigidbody2D>();
         Count = 0;
 	}
 	
@@ -47,7 +47,7 @@ public class PlayerShip : MonoBehaviour {
 
         
 
-        CurrentSpeedY = gameObject.GetComponent<Rigidbody>().velocity.y;
+        CurrentSpeedY = RBody.velocity.y;
 
 	}
 
