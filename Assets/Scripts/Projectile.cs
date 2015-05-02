@@ -16,7 +16,11 @@ public class Projectile : MonoBehaviour {
 	}
 
     void OnTriggerEnter2D(Collider2D col) {
-        if (col.gameObject.tag == "Hostile") Destroy(col.gameObject);
+        if (col.gameObject.tag == "Hostile") {
+            Destroy(col.gameObject);
+            GameObject player = GameObject.FindWithTag("Friendly");
+            player.GetComponent<PlayerShip>().Health += 10;
+        }
 		if (col.gameObject.tag == "Boss")
 			col.gameObject.GetComponents<BossAI>()[0].BossHP -= damage;
         Destroy(gameObject);
