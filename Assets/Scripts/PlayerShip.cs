@@ -31,7 +31,6 @@ public class PlayerShip : MonoBehaviour {
         PlayerPos = transform.position;
 
         if (Input.GetKey(("w"))) {
-            Debug.Log("w");
             transform.position += SpeedOfMotion * Vector3.up;
             //RBody.velocity = SpeedOfBullet * Vector3.up;
             
