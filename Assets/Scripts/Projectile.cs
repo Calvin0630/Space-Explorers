@@ -13,7 +13,8 @@ public class Projectile : MonoBehaviour {
         
 	}
 
-    void OnCollisionEnter2D(Collision2D collision) {
+    void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.tag == "Hostile") Destroy(col.gameObject);
         Destroy(gameObject);
     }
 }

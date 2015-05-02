@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour {
     void Start() {
         FirstList = new List<Enemy>();
         //goes from top right to left middle
-        StartCoroutine(SpawnCoroutine1(FirstPath[0], FirstList, 5, 1));
+        StartCoroutine(SpawnCoroutine1(FirstPath[0], FirstList, 10, .5f));
     }
 
     // Update is called once per frame
@@ -36,6 +36,10 @@ public class Spawner : MonoBehaviour {
     //A method that moves a list of enemy in single file along a path, must be put in update function
     void MoveMethod1(List<Enemy> List, Vector3[] Path) {
         for (int i = 0; i < List.Count; i++) {
+            if (List[i] == null) {
+                List.RemoveAt(i);
+                continue;
+            }
             obj = List[i];
             obj.transform.position = Vector3.MoveTowards(obj.transform.position, Path[obj.GetDestination()], speed);
             if (obj.transform.position == Path[obj.GetDestination()] && (obj.GetDestination() < Path.Length)) {
