@@ -14,42 +14,41 @@ public class Spawner : MonoBehaviour {
     void Start() {
         FirstList = new List<Enemy>();
         //goes from top right to left middle
-        StartCoroutine(SpawnCoroutine1(FirstPath[0], FirstList));
+        StartCoroutine(SpawnCoroutine1(FirstPath[0], FirstList, 10, .1f));
     }
 
     // Update is called once per frame
     void Update() {
-        
-        for (int i = 0; i < FirstList.Count; i++) {
-            obj = FirstList[i];
-            obj.transform.position = Vector3.MoveTowards(obj.transform.position, FirstPath[obj.GetDestination()], speed);
-            if (obj.transform.position == FirstPath[obj.GetDestination()] && (obj.GetDestination() < FirstPath.Length)) {
-                obj.IncrementDesination();
-                if (obj.GetDestination() == FirstPath.Length) {
-                    obj.SetDestination(0);
-                }
-            }
-        }
+        MoveMethod1(FirstList, FirstPath);
     }
 
-    IEnumerator SpawnCoroutine1(Vector3 Location, List<Enemy> list) {
+    IEnumerator SpawnCoroutine1(Vector3 Location, List<Enemy> list, int NumberOfEnemies, float Delay) {
         int Count = 0;
-        for (int i = 0; i < 4; i++) {
-            yield return new WaitForSeconds(1);
+        for (int i = 0; i < NumberOfEnemies; i++) {
+            yield return new WaitForSeconds(Delay);
             Enemy clone = (Enemy)Instantiate(Enemy, Location, Quaternion.identity);
             list.Add(clone);
             Count++;
             yield return new WaitForSeconds(1);
         }
     }
-    /*
-    IEnumerator MovingCoroutine1(Vector3[] array, List<Enemy> list) {
-        for (int i = 1; i < array.Length; i++) {
-            foreach (Enemy obj in list) {
-                obj.transform.position = Vector3.MoveTowards(obj.transform.position, FirstPath[1], speed);
+
+    //A method that moves a list of enemy in single file along a path, must be put in update function
+    void MoveMethod1(List<Enemy> List, Vector3[] Path) {
+        for (int i = 0; i < List.Count; i++) {
+            if (List[i] == null) {
+                List.RemoveAt(i);
+                continue;
             }
-            
+            obj = List[i];
+            obj.transform.position = Vector3.MoveTowards(obj.transform.position, Path[obj.GetDestination()], speed);
+            if (obj.transform.position == Path[obj.GetDestination()] && (obj.GetDestination() < Path.Length)) {
+                obj.IncrementDesination();
+                if (obj.GetDestination() == Path.Length) {
+                    obj.SetDestination(0);
+                }
+            }
         }
-    }*/
+    }
 }
 
