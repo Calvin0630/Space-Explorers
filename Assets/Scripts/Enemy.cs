@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour {
     public float ShotDelay;
     public float SpeedOfBullet;
     public GameObject EnemyProjectile;
-    static int Destination;
+    int Destination;
     public float ShotAccuracy; //higher is less accurate
     Vector3 PlayerPos;
 	// Use this for initialization
