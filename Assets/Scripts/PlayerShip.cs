@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class PlayerShip : MonoBehaviour {
-    float SpeedOfMotion;
+    public float SpeedOfMotion = .5f;
     float CurrentSpeedY;
-    float SpeedOfBullet;
+    public float SpeedOfBullet = 10;
     float Count; //the counter for the timer
     float ShotDelay;
     Vector3 MousePos;
@@ -15,8 +15,6 @@ public class PlayerShip : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         ShotDelay = 10;
-        SpeedOfMotion = .25f;
-        SpeedOfBullet = 10;
         RBody = gameObject.GetComponent<Rigidbody2D>();
         Count = 0;
 	}
