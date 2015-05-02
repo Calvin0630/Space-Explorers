@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Spawner : MonoBehaviour {
     List<Enemy> FirstList;
     public Vector3[] FirstPath;
-    public Enemy Enemy;
+    public GameObject Enemy;
 
 	public float speed;
 
@@ -17,15 +17,13 @@ public class Spawner : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update () {        
                 foreach (Enemy obj in FirstList) {
-                    if (obj.GetDestination() <= FirstPath.Length) {
+                    obj.transform.position = Vector3.MoveTowards(obj.transform.position, FirstPath[obj.GetDestination()], speed);
                     if (obj.GetComponent<Rigidbody2D>().velocity == Vector2.zero) {
-                        obj.IncrementDestination();
-                        Debug.Log("hgc");
-                        obj.transform.position = Vector2.MoveTowards(obj.transform.position, new Vector2 (0,0), speed);
+                        obj.IncrementDesination();
+                       
                     }
-                }
                 }
 	}
 
@@ -33,7 +31,7 @@ public class Spawner : MonoBehaviour {
         int Count = 0;
         for (int i = 0; i < 4; i++) {
             yield return new WaitForSeconds(1);
-            Enemy clone = (Enemy) Instantiate(Enemy, Location, Quaternion.identity);
+            Enemy clone = (Enemy)Instantiate(Enemy, Location, Quaternion.identity);
             list.Add(clone);
             Count++;
             yield return new WaitForSeconds(1);

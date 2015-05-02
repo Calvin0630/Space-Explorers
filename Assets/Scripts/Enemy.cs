@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour {
     public float ShotDelay;
     public float SpeedOfBullet;
     public GameObject EnemyProjectile;
-    static int Destination = 0;
+    static int Destination;
     public float ShotAccuracy; //higher is less accurate
     Vector3 PlayerPos;
 	// Use this for initialization
@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour {
     public void SetDestination(int NewDestination) {
         Destination = NewDestination;
     }
-    public void IncrementDestination() {
+    public void IncrementDesination() {
         Destination++;
     }
 }
