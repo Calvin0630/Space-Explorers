@@ -4,19 +4,20 @@ using System.Collections.Generic;
 
 public class Spawner : MonoBehaviour {
     List<GameObject> list;
-    Vector3[] FirstPast;
+    Vector3[] FirstPath;
     public GameObject Enemy;
     // Use this for initialization
 	void Start () {
 	    list = new List<GameObject>();
         //goes from top right to left middle
-        FirstPast = new Vector3[] { new Vector3(5, 12, 0), new Vector3(-12, 0, 0) };
+        FirstPath = new Vector3[] { new Vector3(12, 5, 0), new Vector3(-12, 0, 0) };
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        Spawn1(new Vector3(12, 5));
         foreach (GameObject obj in list) {
-            obj.GetComponent<Rigidbody2D>().velocity = Vector3.right + Vector3.down;
+            obj.transform.position = Vector3.MoveTowards(obj.transform.position, FirstPath[1], .1f);
         }
 	}
 
