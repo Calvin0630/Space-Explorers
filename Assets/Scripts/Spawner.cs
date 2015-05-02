@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class Spawner : MonoBehaviour {
     List<GameObject> FirstList;
-    Vector3[] FirstPath;
+    public Vector3[] FirstPath;
     public GameObject Enemy;
 
 	public float speed;
