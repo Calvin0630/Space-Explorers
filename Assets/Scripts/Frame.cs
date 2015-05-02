@@ -4,10 +4,10 @@ using System.Collections;
 public class Frame : MonoBehaviour {
     Vector3 ScreenSize;
     public GameObject Cube;
+
 	// Use this for initialization
 	void Start () {
         ScreenSize = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
-        Debug.Log(ScreenSize.x + "   " + ScreenSize.y);
         Vector3 Right = new Vector3(ScreenSize.x + .6f, 0, 0);
         Vector3 Left = -Right;
         Vector3 Top = new Vector3(0, ScreenSize.y + .6f, 0);
@@ -24,6 +24,6 @@ public class Frame : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-       
+        
 	}
 }
