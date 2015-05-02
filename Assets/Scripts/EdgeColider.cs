@@ -7,7 +7,7 @@ public class EdgeColider : MonoBehaviour {
 	public Frame frame;
 
 		void OnTriggerEnter2D(Collider2D c) {
-			print ("Trigger");
+
 			if (c.gameObject.Equals(frame.TopCube)) {
 					hTop = true;
 			}
