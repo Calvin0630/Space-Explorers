@@ -6,10 +6,10 @@ public class EdgeColider : MonoBehaviour {
 	public bool hLeft,hRight,hTop,hBottom;
 	public Frame frame;
 
-		void OnCollisionEnter2D(Collision2D c) {
-		print ("Collision");
-		if (c.gameObject.Equals(frame.TopCube)) {
-				hTop = true;
+		void OnTriggerEnter2D(Collider2D c) {
+			print ("Trigger");
+			if (c.gameObject.Equals(frame.TopCube)) {
+					hTop = true;
 			}
 			if (c.gameObject.Equals(frame.BottomCube)) {
 				hBottom = true;
@@ -23,7 +23,7 @@ public class EdgeColider : MonoBehaviour {
 
 		}
 
-	void OnCollisionExit2D(Collision2D c) {
+	void OnTriggerExit2D(Collider2D c) {
 		if (c.gameObject.Equals(frame.TopCube)) {
 			hTop = false;
 		}
