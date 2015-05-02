@@ -5,6 +5,7 @@ public class Enemy : MonoBehaviour {
     public float ShotDelay;
     public float SpeedOfBullet;
     public GameObject EnemyProjectile;
+    static int Destination;
     public float ShotAccuracy; //higher is less accurate
     Vector3 PlayerPos;
 	// Use this for initialization
@@ -30,5 +31,12 @@ public class Enemy : MonoBehaviour {
     Vector3 GetUnitVector(Vector3 v) {
         float r = Mathf.Sqrt(v.x * v.x + v.y * v.y);
         return v / r;
+    }
+
+    public int GetDestination() {
+        return Destination;
+    }
+    public void SetDestination(int NewDestination) {
+        Destination = NewDestination;
     }
 }
