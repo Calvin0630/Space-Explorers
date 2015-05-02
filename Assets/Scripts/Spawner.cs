@@ -17,11 +17,11 @@ public class Spawner : MonoBehaviour {
 	    FirstList = new List<GameObject>();
         //goes from top right to left middle
 		FirstPath = new Vector3[] { new Vector3 (i, j, 0), new Vector3(-i, 0, 0) };
+        //Spawn1(FirstPath[0]);
 	}
 
 	// Update is called once per frame
 	void Update () {
-        Spawn1(new Vector3(i, j));
         foreach (GameObject obj in FirstList) {
 			obj.transform.position = Vector3.MoveTowards (obj.transform.position, FirstPath [1], speed);
 			if (obj.transform.position==FirstPath [1]) {

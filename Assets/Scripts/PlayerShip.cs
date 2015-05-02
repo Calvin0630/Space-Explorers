@@ -20,10 +20,10 @@ public class PlayerShip : MonoBehaviour {
         RBody = gameObject.GetComponent<Rigidbody2D>();
         Count = 0;
 	}
-
+    
 	void OnCollisionEnter2D(Collision2D c) {
-		gameOver.gameObject.SetActive(true);
-		Object.Destroy (gameObject);
+		//gameOver.gameObject.SetActive(true);
+		//Object.Destroy (gameObject);
 	}
 	
 	// Update is called once per frame
@@ -31,6 +31,7 @@ public class PlayerShip : MonoBehaviour {
         PlayerPos = transform.position;
 
         if (Input.GetKey(("w"))) {
+            Debug.Log("w");
             transform.position += SpeedOfMotion * Vector3.up;
             //RBody.velocity = SpeedOfBullet * Vector3.up;
             
@@ -47,11 +48,6 @@ public class PlayerShip : MonoBehaviour {
             transform.position += SpeedOfMotion * Vector3.right; 
             //RBody.velocity = SpeedOfBullet * Vector3.down;
         }
-
-        
-
-        
-
         CurrentSpeedY = RBody.velocity.y;
 
 	}
