@@ -14,7 +14,8 @@ public class PlayerShip : EdgeColider {
     public GameObject Projectile;
     public static Vector3 PlayerPos;
     Rigidbody2D RBody;
-	// Use this for initialization
+    public int Health;
+    // Use this for initialization
 	void Start () {
         ShotDelay = 10;
         RBody = gameObject.GetComponent<Rigidbody2D>();
@@ -49,6 +50,7 @@ public class PlayerShip : EdgeColider {
         }
         CurrentSpeedY = RBody.velocity.y;
 
+        if (Health <= 0) Destroy(gameObject);
 	}
 
 
@@ -81,5 +83,13 @@ public class PlayerShip : EdgeColider {
     Vector3 GetUnitVector(Vector3 v) {
         float r = Mathf.Sqrt(v.x * v.x + v.y * v.y);
         return v / r;
+    }
+
+    public void RemoveHealth(int damage) {
+        Health -= damage;
+    }
+
+    public int GetHealth() {
+        return this.Health;
     }
 }
