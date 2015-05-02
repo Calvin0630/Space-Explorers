@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerShip : MonoBehaviour {
-    public float SpeedOfMotion = .5f;
+    public float SpeedOfMotion;
     float CurrentSpeedY;
-    public float SpeedOfBullet = 10;
+    public float SpeedOfBullet;
+	public Text gameOver;
     float Count; //the counter for the timer
     float ShotDelay;
     Vector3 MousePos;
@@ -17,6 +19,11 @@ public class PlayerShip : MonoBehaviour {
         ShotDelay = 10;
         RBody = gameObject.GetComponent<Rigidbody2D>();
         Count = 0;
+	}
+
+	void OnCollisionEnter2D(Collision2D c) {
+		gameOver.gameObject.SetActive(true);
+		Object.Destroy (gameObject);
 	}
 	
 	// Update is called once per frame
@@ -48,6 +55,8 @@ public class PlayerShip : MonoBehaviour {
         CurrentSpeedY = RBody.velocity.y;
 
 	}
+
+
 
     void FixedUpdate() {
         Count++;

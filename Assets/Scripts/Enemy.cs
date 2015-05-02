@@ -2,14 +2,12 @@
 using System.Collections;
 
 public class Enemy : MonoBehaviour {
-    float ShotDelay;
-    float SpeedOfBullet;
+    public float ShotDelay;
+    public float SpeedOfBullet;
     public GameObject EnemyProjectile;
     Vector3 PlayerPos;
 	// Use this for initialization
 	void Start () {
-        ShotDelay = .5f;
-        SpeedOfBullet = 15;
         PlayerPos = PlayerShip.PlayerPos;
     }
 	
@@ -18,6 +16,11 @@ public class Enemy : MonoBehaviour {
         PlayerPos = PlayerShip.PlayerPos;
         
 	}
+
+	void OnCollisionEnter2D(Collision2D collision) {
+		Destroy(gameObject);
+	}
+
     void FixedUpdate() {
         //Debug.Log(Time.time);
         if (Time.time % ShotDelay == 0) {

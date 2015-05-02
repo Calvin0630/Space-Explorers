@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour {
 	const int i = 1;
 	const int j = 1;
 
-	const float speed = .1f;
+	public float speed;
 
     // Use this for initialization
 	void Start () {
@@ -24,6 +24,10 @@ public class Spawner : MonoBehaviour {
         Spawn1(new Vector3(i, j));
         foreach (GameObject obj in FirstList) {
 			obj.transform.position = Vector3.MoveTowards (obj.transform.position, FirstPath [1], speed);
+			if (obj.transform.position==FirstPath [1]) {
+				FirstList.Remove(obj);
+				Object.Destroy(obj);
+			}
         }
 	}
 
