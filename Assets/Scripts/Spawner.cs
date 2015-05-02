@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Spawner : MonoBehaviour {
     List<Enemy> FirstList;
     public Vector3[] FirstPath;
-    public GameObject Enemy;
+    public Enemy Enemy;
 
 	public float speed;
 
@@ -20,7 +20,7 @@ public class Spawner : MonoBehaviour {
 	void Update () {        
                 foreach (Enemy obj in FirstList) {
                     obj.transform.position = Vector3.MoveTowards(obj.transform.position, FirstPath[obj.GetDestination()], speed);
-                    if (obj.GetComponent<Rigidbody2D>().velocity == Vector2.zero) {
+                    Debug.Log(obj.GetDestination());
                         obj.IncrementDesination();
                        
                     }
