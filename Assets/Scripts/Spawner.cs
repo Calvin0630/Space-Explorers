@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour {
     void Start() {
         FirstList = new List<Enemy>();
         //goes from top right to left middle
-        StartCoroutine(SpawnCoroutine1(FirstPath[0], FirstList, 10, .5f));
+        StartCoroutine(SpawnCoroutine1(FirstPath[0], FirstList, 10, .1f));
     }
 
     // Update is called once per frame
