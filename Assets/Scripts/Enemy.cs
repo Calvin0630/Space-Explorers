@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour {
         if (Time.time % ShotDelay == 0) {
             GameObject clone = (GameObject)Instantiate(EnemyProjectile, transform.position, Quaternion.identity);
             //sets velocity to shoot at the player plus a random vector
-            clone.GetComponent<Rigidbody>().velocity = SpeedOfBullet * (GetUnitVector(PlayerPos-transform.position)) +
+            clone.GetComponent<Rigidbody2D>().velocity = SpeedOfBullet * (GetUnitVector(PlayerPos-transform.position)) +
                 new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0);
         }
     }

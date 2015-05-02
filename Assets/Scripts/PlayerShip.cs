@@ -61,7 +61,7 @@ public class PlayerShip : MonoBehaviour {
                 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 PlayerToMouse = MousePos - transform.position;
                 PlayerToMouse = new Vector3(PlayerToMouse.x, PlayerToMouse.y, 0);
-                clone.GetComponent<Rigidbody>().velocity = SpeedOfBullet * GetUnitVector(PlayerToMouse) + new Vector3(0, CurrentSpeedY, 0);
+                clone.GetComponent<Rigidbody2D>().velocity = SpeedOfBullet * GetUnitVector(PlayerToMouse) + new Vector3(0, CurrentSpeedY, 0);
             }
         }
 
@@ -71,7 +71,7 @@ public class PlayerShip : MonoBehaviour {
                 Count = 0;
                 //shoot stuff
                 GameObject clone = (GameObject)Instantiate(Projectile, transform.position, Quaternion.identity);
-                clone.GetComponent<Rigidbody>().velocity = SpeedOfBullet * Vector3.up + new Vector3(0, CurrentSpeedY, 0);
+                clone.GetComponent<Rigidbody2D>().velocity = SpeedOfBullet * Vector3.up + new Vector3(0, CurrentSpeedY, 0);
             }
         }
     }
