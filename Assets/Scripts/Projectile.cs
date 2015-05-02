@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class Projectile : MonoBehaviour {
+
+	public float damage;
     float ScreenSize;
 	// Use this for initialization
 	void Start () {
@@ -13,8 +15,10 @@ public class Projectile : MonoBehaviour {
         
 	}
 
-    void OnCollisionEnter2D(Collision2D col) {
+    void OnTriggerEnter2D(Collider2D col) {
         if (col.gameObject.tag == "Hostile") Destroy(col.gameObject);
+		if (col.gameObject.tag == "Boss")
+			col.gameObject.GetComponents<BossAI>()[0].BossHP -= damage;
         Destroy(gameObject);
     }
 }

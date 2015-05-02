@@ -9,12 +9,15 @@ public class BossAI : MonoBehaviour {
 	bool right;
 	public float x,y;
 	Vector3 initialpostion;
-
+	public float BossHP;
+	public float BossMHP;
+	
 	// Use this for initialization
 	void Start () {
 		right = true;
 		initialpostion = transform.position;
 		x = 0;
+		BossHP = BossMHP;
 	}
 	
 	// Update is called once per frame

@@ -11,8 +11,8 @@ public class UIOverlay : MonoBehaviour {
 	public Image BarF;
 	public bool Survival;
 	public bool Boss;
-	public float BossHP=500f;
-	public float BossMHP=500f;
+	public BossAI boss;
+
 	float BossRHP;
 	float timer = 0.0f;
 	void OnGUI () {
@@ -26,7 +26,7 @@ public class UIOverlay : MonoBehaviour {
 			GUI.Box (new Rect (10, 10, 100, 50), Tine);
 		}
 		if (Boss == true) {
-			BossRHP = BossHP / BossMHP;
+			BossRHP = boss.BossHP / boss.BossMHP;
 			
 			//draw the filled-in part:
 			BarF.rectTransform.anchorMax=new Vector2(BossRHP,1.0f);
