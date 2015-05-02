@@ -31,7 +31,7 @@ public class UIOverlay : MonoBehaviour {
 			//draw the filled-in part:
 			BarF.rectTransform.anchorMax=new Vector2(BossRHP,1.0f);
 			
-			GUI.EndGroup ();
+//			GUI.EndGroup ();
 		}
 	}
 }
