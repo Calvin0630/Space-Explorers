@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class PlayerShip : MonoBehaviour {
+public class PlayerShip : EdgeColider {
     public float SpeedOfMotion;
     float CurrentSpeedY;
     public float SpeedOfBullet;
@@ -21,29 +21,29 @@ public class PlayerShip : MonoBehaviour {
         Count = 0;
 	}
     
-	void OnCollisionEnter2D(Collision2D c) {
-		//gameOver.gameObject.SetActive(true);
-		//Object.Destroy (gameObject);
-	}
+//	void OnCollisionEnter2D(Collision2D c) {
+//		//gameOver.gameObject.SetActive(true);
+//		//Object.Destroy (gameObject);
+//	}
 	
 	// Update is called once per frame
 	void Update () {
         PlayerPos = transform.position;
 
-        if (Input.GetKey(("w"))) {
+		if (Input.GetKey(("w")) && !hTop) {
             transform.position += SpeedOfMotion * Vector3.up;
             //RBody.velocity = SpeedOfBullet * Vector3.up;
             
         }
-        if (Input.GetKey(("a"))) {
+		if (Input.GetKey(("a")) && !hLeft) {
             transform.position += SpeedOfMotion * Vector3.left;
             //RBody.velocity = SpeedOfBullet * Vector3.left;
         }
-        if (Input.GetKey(("s"))) {
+		if (Input.GetKey(("s")) && !hBottom) {
             transform.position += SpeedOfMotion * Vector3.down; 
             //RBody.velocity = SpeedOfBullet * Vector3.right;       
         }
-        if (Input.GetKey(("d"))) {
+		if (Input.GetKey(("d")) && !hRight) {
             transform.position += SpeedOfMotion * Vector3.right; 
             //RBody.velocity = SpeedOfBullet * Vector3.down;
         }
