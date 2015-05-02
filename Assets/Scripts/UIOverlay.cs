@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
@@ -29,8 +29,7 @@ public class UIOverlay : MonoBehaviour {
 			BossRHP = BossHP / BossMHP;
 			
 			//draw the filled-in part:
-			BarF.rectTransform.localPosition=new Vector3(0,0,0);
-			//BarE.rectTransform.localScale*BossRHP;
+			BarF.rectTransform.anchorMax=new Vector2(BossRHP,1.0f);
 			
 			GUI.EndGroup ();
 		}
