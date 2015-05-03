@@ -16,8 +16,8 @@ public class Enemy : EdgeColider {
 	void Start () {
 
 		// dirty fab hack
-		this.gameObject.GetComponent<Rigidbody2D> ().isKinematic = true;
-		this.gameObject.GetComponent<CircleCollider2D>().isTrigger = true;
+		//this.gameObject.GetComponent<Rigidbody2D> ().isKinematic = true;
+		//this.gameObject.GetComponent<CircleCollider2D>().isTrigger = true;
 
 		active = false;
         PlayerPos = PlayerShip.PlayerPos;
@@ -46,7 +46,7 @@ public class Enemy : EdgeColider {
 
 	protected virtual void ActiveUpdate () {
         PlayerPos = PlayerShip.PlayerPos;
-        
+		this.transform.position += BaseVelocity * Vector3.down;
 	}
 
 

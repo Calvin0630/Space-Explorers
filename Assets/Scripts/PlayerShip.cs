@@ -27,7 +27,7 @@ public class PlayerShip : EdgeColider {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log("Score: "+PeakScore+" Health: "+Health);
+//        Debug.Log("Score: "+PeakScore+" Health: "+Health);
         PlayerPos = transform.position;
 
 		if (Input.GetKey(("w")) && !hTop) {
