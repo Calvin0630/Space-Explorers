@@ -11,9 +11,11 @@ public class BossAI : MonoBehaviour {
 	Vector3 initialpostion;
 	public float BossHP;
 	public float BossMHP;
+	public float[] BossHPList;
 	public float SpeedOfBullet;
 	public GameObject EnemyProjectile;
 	public int formNumber;
+	public UIOverlay overlay;
 
 
 	// Use this for initialization
@@ -21,13 +23,38 @@ public class BossAI : MonoBehaviour {
 		right = true;
 		initialpostion = transform.position;
 		XPos = 0;
-		BossHP = BossMHP;
+		BossHP = BossMHP = BossHPList[0];
+		overlay.BossMode = true;
 	}
-	
+
+	void Death() {
+		if (BossHP <= 0) {
+			print("Boss form defeated");
+			formNumber++;
+			if (formNumber > BossHPList.Length) {
+				Destroy(this.gameObject);
+				overlay.BossMode=false;
+			}
+			else {
+				BossHP = BossMHP = BossHPList[formNumber];
+			}
+		}
+	}
+
 	// Update is called once per frame
 	void Update () {
+		Death ();
 		Movement();
-		//formNumber;
+		switch (formNumber) {
+		case 0:
+			firstForm();
+			break;
+		case 1:
+			secondForm();
+			break;
+		default:
+			break;
+		}
 	}
 
 
@@ -58,6 +85,16 @@ public class BossAI : MonoBehaviour {
 		default:
 			break;
 		}
+	}
+
+
+	void secondForm() {
+		Cannon ();
+	}
+
+	void Cannon() {
+		GameObject clone = (GameObject)Instantiate(EnemyProjectile, transform.position, Quaternion.identity);
+		clone.GetComponent<Rigidbody2D>().velocity = SpeedOfBullet * Vector3.down;
 	}
 
 	void CrossBlast() {

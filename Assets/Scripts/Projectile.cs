@@ -21,8 +21,10 @@ public class Projectile : MonoBehaviour {
             GameObject player = GameObject.FindWithTag("Friendly");
             player.GetComponent<PlayerShip>().Health += 10;
         }
-		if (col.gameObject.tag == "Boss")
-			col.gameObject.GetComponents<BossAI>()[0].BossHP -= damage;
+		if (col.gameObject.tag == "Boss") {
+			print("Boss hit!");
+			col.gameObject.GetComponents<BossAI> () [0].BossHP -= damage;
+		}
         Destroy(gameObject);
     }
 }

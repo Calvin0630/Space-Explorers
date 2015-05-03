@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 5bcd1c36ae01843fc99e9e6b33dc86c2
+timeCreated: 1430611487
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: anim_tentacle1_b_controller01
+    100002: anim_tentacle1_b_controller010
+    100004: anim_tentacle1_b_controller02
+    100006: anim_tentacle1_b_controller02 1
+    100008: anim_tentacle1_b_controller04
+    100010: anim_tentacle1_b_controller05
+    100012: anim_tentacle1_b_controller06
+    100014: anim_tentacle1_b_controller07
+    100016: anim_tentacle1_b_controller08
+    100018: anim_tentacle1_b_controller09
+    100020: be_head01
+    100022: be_root01
+    100024: bn_body01
+    100026: bn_head01
+    100028: ikHandle10
+    100030: ikHandle9
+    100032: iks
+    100034: //RootNode
+    100036: roboSquidBody
+    100038: rpIK_Leg1
+    100040: rpIK_Leg2
+    100042: rpIK_Leg3
+    100044: rpIK_Leg4
+    100046: rpIK_Leg5
+    100048: rpIK_Leg6
+    100050: rpIK_Leg7
+    100052: rpIK_Leg8
+    100054: tentacle01
+    100056: tentacle010
+    100058: tentacle02
+    100060: tentacle03
+    100062: tentacle04
+    100064: tentacle05
+    100066: tentacle06
+    100068: tentacle07
+    100070: tentacle08
+    100072: tentacle09
+    100074: tentacle1_a_controller01
+    100076: tentacle1_a_controller010
+    100078: tentacle1_a_controller02
+    100080: tentacle1_a_controller02 1
+    100082: tentacle1_a_controller04
+    100084: tentacle1_a_controller05
+    100086: tentacle1_a_controller06
+    100088: tentacle1_a_controller07
+    100090: tentacle1_a_controller08
+    100092: tentacle1_a_controller09
+    100094: tentacle1_be01
+    100096: tentacle1_be010
+    100098: tentacle1_be02
+    100100: tentacle1_be02 1
+    100102: tentacle1_be04
+    100104: tentacle1_be05
+    100106: tentacle1_be06
+    100108: tentacle1_be07
+    100110: tentacle1_be08
+    100112: tentacle1_be09
+    100114: tentacle1_bn_a01
+    100116: tentacle1_bn_a010
+    100118: tentacle1_bn_a02
+    100120: tentacle1_bn_a02 1
+    100122: tentacle1_bn_a04
+    100124: tentacle1_bn_a05
+    100126: tentacle1_bn_a06
+    100128: tentacle1_bn_a07
+    100130: tentacle1_bn_a08
+    100132: tentacle1_bn_a09
+    100134: tentacle1_bn_b01
+    100136: tentacle1_bn_b010
+    100138: tentacle1_bn_b02
+    100140: tentacle1_bn_b02 1
+    100142: tentacle1_bn_b04
+    100144: tentacle1_bn_b05
+    100146: tentacle1_bn_b06
+    100148: tentacle1_bn_b07
+    100150: tentacle1_bn_b08
+    100152: tentacle1_bn_b09
+    100154: tentacle1_bn_c01
+    100156: tentacle1_bn_c010
+    100158: tentacle1_bn_c02
+    100160: tentacle1_bn_c02 1
+    100162: tentacle1_bn_c04
+    100164: tentacle1_bn_c05
+    100166: tentacle1_bn_c06
+    100168: tentacle1_bn_c07
+    100170: tentacle1_bn_c08
+    100172: tentacle1_bn_c09
+    100174: tentacle1_bn_d01
+    100176: tentacle1_bn_d010
+    100178: tentacle1_bn_d02
+    100180: tentacle1_bn_d02 1
+    100182: tentacle1_bn_d04
+    100184: tentacle1_bn_d05
+    100186: tentacle1_bn_d06
+    100188: tentacle1_bn_d07
+    100190: tentacle1_bn_d08
+    100192: tentacle1_bn_d09
+    100194: tentacle1_bn_e01
+    100196: tentacle1_bn_e010
+    100198: tentacle1_bn_e02
+    100200: tentacle1_bn_e02 1
+    100202: tentacle1_bn_e04
+    100204: tentacle1_bn_e05
+    100206: tentacle1_bn_e06
+    100208: tentacle1_bn_e07
+    100210: tentacle1_bn_e08
+    100212: tentacle1_bn_e09
+    100214: tentacle1_bn_f01
+    100216: tentacle1_bn_f010
+    100218: tentacle1_bn_f02
+    100220: tentacle1_bn_f02 1
+    100222: tentacle1_bn_f04
+    100224: tentacle1_bn_f05
+    100226: tentacle1_bn_f06
+    100228: tentacle1_bn_f07
+    100230: tentacle1_bn_f08
+    100232: tentacle1_bn_f09
+    100234: tentacle1_bn_root01
+    100236: tentacle1_bn_root010
+    100238: tentacle1_bn_root02
+    100240: tentacle1_bn_root02 1
+    100242: tentacle1_bn_root04
+    100244: tentacle1_bn_root05
+    100246: tentacle1_bn_root06
+    100248: tentacle1_bn_root07
+    100250: tentacle1_bn_root08
+    100252: tentacle1_bn_root09
+    100254: tentacleMesh01
+    100256: tentacleMesh010
+    100258: tentacleMesh02
+    100260: tentacleMesh02 1
+    100262: tentacleMesh04
+    100264: tentacleMesh05
+    100266: tentacleMesh06
+    100268: tentacleMesh07
+    100270: tentacleMesh08
+    100272: tentacleMesh09
+    400000: anim_tentacle1_b_controller01
+    400002: anim_tentacle1_b_controller010
+    400004: anim_tentacle1_b_controller02
+    400006: anim_tentacle1_b_controller02 1
+    400008: anim_tentacle1_b_controller04
+    400010: anim_tentacle1_b_controller05
+    400012: anim_tentacle1_b_controller06
+    400014: anim_tentacle1_b_controller07
+    400016: anim_tentacle1_b_controller08
+    400018: anim_tentacle1_b_controller09
+    400020: be_head01
+    400022: be_root01
+    400024: bn_body01
+    400026: bn_head01
+    400028: ikHandle10
+    400030: ikHandle9
+    400032: iks
+    400034: //RootNode
+    400036: roboSquidBody
+    400038: rpIK_Leg1
+    400040: rpIK_Leg2
+    400042: rpIK_Leg3
+    400044: rpIK_Leg4
+    400046: rpIK_Leg5
+    400048: rpIK_Leg6
+    400050: rpIK_Leg7
+    400052: rpIK_Leg8
+    400054: tentacle01
+    400056: tentacle010
+    400058: tentacle02
+    400060: tentacle03
+    400062: tentacle04
+    400064: tentacle05
+    400066: tentacle06
+    400068: tentacle07
+    400070: tentacle08
+    400072: tentacle09
+    400074: tentacle1_a_controller01
+    400076: tentacle1_a_controller010
+    400078: tentacle1_a_controller02
+    400080: tentacle1_a_controller02 1
+    400082: tentacle1_a_controller04
+    400084: tentacle1_a_controller05
+    400086: tentacle1_a_controller06
+    400088: tentacle1_a_controller07
+    400090: tentacle1_a_controller08
+    400092: tentacle1_a_controller09
+    400094: tentacle1_be01
+    400096: tentacle1_be010
+    400098: tentacle1_be02
+    400100: tentacle1_be02 1
+    400102: tentacle1_be04
+    400104: tentacle1_be05
+    400106: tentacle1_be06
+    400108: tentacle1_be07
+    400110: tentacle1_be08
+    400112: tentacle1_be09
+    400114: tentacle1_bn_a01
+    400116: tentacle1_bn_a010
+    400118: tentacle1_bn_a02
+    400120: tentacle1_bn_a02 1
+    400122: tentacle1_bn_a04
+    400124: tentacle1_bn_a05
+    400126: tentacle1_bn_a06
+    400128: tentacle1_bn_a07
+    400130: tentacle1_bn_a08
+    400132: tentacle1_bn_a09
+    400134: tentacle1_bn_b01
+    400136: tentacle1_bn_b010
+    400138: tentacle1_bn_b02
+    400140: tentacle1_bn_b02 1
+    400142: tentacle1_bn_b04
+    400144: tentacle1_bn_b05
+    400146: tentacle1_bn_b06
+    400148: tentacle1_bn_b07
+    400150: tentacle1_bn_b08
+    400152: tentacle1_bn_b09
+    400154: tentacle1_bn_c01
+    400156: tentacle1_bn_c010
+    400158: tentacle1_bn_c02
+    400160: tentacle1_bn_c02 1
+    400162: tentacle1_bn_c04
+    400164: tentacle1_bn_c05
+    400166: tentacle1_bn_c06
+    400168: tentacle1_bn_c07
+    400170: tentacle1_bn_c08
+    400172: tentacle1_bn_c09
+    400174: tentacle1_bn_d01
+    400176: tentacle1_bn_d010
+    400178: tentacle1_bn_d02
+    400180: tentacle1_bn_d02 1
+    400182: tentacle1_bn_d04
+    400184: tentacle1_bn_d05
+    400186: tentacle1_bn_d06
+    400188: tentacle1_bn_d07
+    400190: tentacle1_bn_d08
+    400192: tentacle1_bn_d09
+    400194: tentacle1_bn_e01
+    400196: tentacle1_bn_e010
+    400198: tentacle1_bn_e02
+    400200: tentacle1_bn_e02 1
+    400202: tentacle1_bn_e04
+    400204: tentacle1_bn_e05
+    400206: tentacle1_bn_e06
+    400208: tentacle1_bn_e07
+    400210: tentacle1_bn_e08
+    400212: tentacle1_bn_e09
+    400214: tentacle1_bn_f01
+    400216: tentacle1_bn_f010
+    400218: tentacle1_bn_f02
+    400220: tentacle1_bn_f02 1
+    400222: tentacle1_bn_f04
+    400224: tentacle1_bn_f05
+    400226: tentacle1_bn_f06
+    400228: tentacle1_bn_f07
+    400230: tentacle1_bn_f08
+    400232: tentacle1_bn_f09
+    400234: tentacle1_bn_root01
+    400236: tentacle1_bn_root010
+    400238: tentacle1_bn_root02
+    400240: tentacle1_bn_root02 1
+    400242: tentacle1_bn_root04
+    400244: tentacle1_bn_root05
+    400246: tentacle1_bn_root06
+    400248: tentacle1_bn_root07
+    400250: tentacle1_bn_root08
+    400252: tentacle1_bn_root09
+    400254: tentacleMesh01
+    400256: tentacleMesh010
+    400258: tentacleMesh02
+    400260: tentacleMesh02 1
+    400262: tentacleMesh04
+    400264: tentacleMesh05
+    400266: tentacleMesh06
+    400268: tentacleMesh07
+    400270: tentacleMesh08
+    400272: tentacleMesh09
+    4300000: roboSquidBody
+    4300002: tentacleMesh01
+    4300004: tentacleMesh02
+    4300006: tentacleMesh02
+    4300008: tentacleMesh04
+    4300010: tentacleMesh05
+    4300012: tentacleMesh06
+    4300014: tentacleMesh07
+    4300016: tentacleMesh08
+    4300018: tentacleMesh09
+    4300020: tentacleMesh010
+    7400000: RoboSquid
+    9500000: //RootNode
+    13700000: roboSquidBody
+    13700002: tentacleMesh01
+    13700004: tentacleMesh010
+    13700006: tentacleMesh02
+    13700008: tentacleMesh02 1
+    13700010: tentacleMesh04
+    13700012: tentacleMesh05
+    13700014: tentacleMesh06
+    13700016: tentacleMesh07
+    13700018: tentacleMesh08
+    13700020: tentacleMesh09
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

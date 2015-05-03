@@ -10,7 +10,7 @@ public class UIOverlay : MonoBehaviour {
 	public Image BarE;
 	public Image BarF;
 	public bool Survival;
-	public bool Boss;
+	public bool BossMode;
 	public BossAI boss;
 
 	float BossRHP;
@@ -25,7 +25,7 @@ public class UIOverlay : MonoBehaviour {
 			string Tine = string.Format ("{0:00}:{1:00}", Minute, Second);
 			GUI.Box (new Rect (10, 10, 100, 50), Tine);
 		}
-		if (Boss == true) {
+		if (BossMode == true) {
 			BossRHP = boss.BossHP / boss.BossMHP;
 			
 			//draw the filled-in part:
