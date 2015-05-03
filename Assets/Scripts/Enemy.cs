@@ -5,7 +5,7 @@ public class Enemy : EdgeColider {
     public int ShotDelay;
     public float SpeedOfBullet;
 	protected int ShotCounter;
-	protected const float BaseVelocity = 0.05f;
+	protected const float BaseVelocity = 0.025f;
 	public bool active;
     public GameObject EnemyProjectile;
     int Destination;
