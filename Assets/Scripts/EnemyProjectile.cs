@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class EnemyProjectile : MonoBehaviour {
-    public int damage;
+    public int Damage;
     // Use this for initialization
     void Start() {
 
@@ -15,7 +15,7 @@ public class EnemyProjectile : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col) {
         if (col.gameObject.tag == "Friendly") {
-            col.GetComponent<PlayerShip>().Health -= damage;
+            col.GetComponent<PlayerShip>().Health -= Damage;
         }
         Destroy(gameObject);
     }

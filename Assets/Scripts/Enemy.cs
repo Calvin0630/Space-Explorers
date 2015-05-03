@@ -38,7 +38,7 @@ public class Enemy : EdgeColider {
 	}
 
 	protected virtual void InactiveUpdate() {
-		this.transform.position += BaseVelocity * Vector3.down;
+		//this.transform.position += BaseVelocity * Vector3.down;
 	}
 
 	protected virtual void ActiveUpdate () {

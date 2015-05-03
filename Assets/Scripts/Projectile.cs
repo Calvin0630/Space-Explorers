@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Projectile : MonoBehaviour {
 
-	public float damage;
+	public float BossDamage;
+    public int ScorePerKill;
     float ScreenSize;
 	// Use this for initialization
 	void Start () {
@@ -19,11 +20,12 @@ public class Projectile : MonoBehaviour {
         if (col.gameObject.tag == "Hostile") {
             Destroy(col.gameObject);
             GameObject player = GameObject.FindWithTag("Friendly");
-            player.GetComponent<PlayerShip>().Health += 10;
+            player.GetComponent<PlayerShip>().Health += ScorePerKill;
+            player.GetComponent<PlayerShip>().PeakScore += ScorePerKill;
         }
 		if (col.gameObject.tag == "Boss") {
 			print("Boss hit!");
-			col.gameObject.GetComponents<BossAI> () [0].BossHP -= damage;
+			col.gameObject.GetComponents<BossAI> () [0].BossHP -= BossDamage;
 		}
         Destroy(gameObject);
     }

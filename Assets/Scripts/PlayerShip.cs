@@ -15,16 +15,19 @@ public class PlayerShip : EdgeColider {
     public static Vector3 PlayerPos;
     Rigidbody2D RBody;
     public int Health;
+    public int PeakScore;
     // Use this for initialization
 	void Start () {
         ShotDelay = 10;
         RBody = gameObject.GetComponent<Rigidbody2D>();
         Count = 0;
+        PeakScore = Health;
 	}
   
 	
 	// Update is called once per frame
 	void Update () {
+        Debug.Log("Score: "+PeakScore+" Health: "+Health);
         PlayerPos = transform.position;
 
 		if (Input.GetKey(("w")) && !hTop) {
