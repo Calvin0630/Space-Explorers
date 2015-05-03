@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BossAI : MonoBehaviour {
+public class BossAI : Enemy {
 
 	public float pathwidth;
 	public float pathheight;
@@ -16,10 +16,12 @@ public class BossAI : MonoBehaviour {
 	public GameObject EnemyProjectile;
 	public int formNumber;
 	public UIOverlay overlay;
+	public float delay;
 
 
 	// Use this for initialization
-	void Start () {
+	protected override void  Start () {
+		base.Start ();
 		right = true;
 		initialpostion = transform.position;
 		XPos = 0;
@@ -42,7 +44,10 @@ public class BossAI : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	protected override void ActiveUpdate () {
+		if (delay > 0) {
+			delay--;
+		}
 		Death ();
 		Movement();
 		switch (formNumber) {

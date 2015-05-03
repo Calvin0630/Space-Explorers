@@ -13,7 +13,7 @@ public class Enemy : EdgeColider {
     protected Vector3 PlayerPos;
 
 	// Use this for initialization
-	void Start () {
+	protected virtual void Start () {
 
 		// dirty fab hack
 		//this.gameObject.GetComponent<Rigidbody2D> ().isKinematic = true;
