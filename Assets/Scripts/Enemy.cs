@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour {
 	}
 
     void FixedUpdate() {
-        //Debug.Log(Time.time);
+        //Shooting
         if (Time.time % ShotDelay == 0) {
             GameObject clone = (GameObject)Instantiate(EnemyProjectile, transform.position, Quaternion.identity);
             //sets velocity to shoot at the player plus a random vector

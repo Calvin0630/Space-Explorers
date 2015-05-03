@@ -7,32 +7,68 @@ public class BossAI : MonoBehaviour {
 	public float pathheight;
 	public float inc;
 	bool right;
-	public float x,y;
+	public float XPos,YPos;
 	Vector3 initialpostion;
 	public float BossHP;
 	public float BossMHP;
-	
+	public float SpeedOfBullet;
+	public GameObject EnemyProjectile;
+	public int formNumber;
+
+
 	// Use this for initialization
 	void Start () {
 		right = true;
 		initialpostion = transform.position;
-		x = 0;
+		XPos = 0;
 		BossHP = BossMHP;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		y = Mathf.Sin (x);
+		Movement();
+		//formNumber;
+	}
+
+
+
+
+	void Movement()
+	{
+		YPos = Mathf.Sin (XPos);
 		if (right) {
-			transform.position = initialpostion + new Vector3 (pathwidth * x, pathheight * y ,0);
+			transform.position = initialpostion + new Vector3 (pathwidth * XPos, pathheight * YPos, 0);
 		}
 		else {
-			transform.position = initialpostion + new Vector3 (pathwidth * x, -pathheight * y,0);
+			transform.position = initialpostion + new Vector3 (pathwidth * XPos, -pathheight * YPos, 0);
 		}
-		x += inc;
-		if (Mathf.Abs(x) > 2 * Mathf.PI) {
+		XPos += inc;
+		if (Mathf.Abs (XPos) > 2 * Mathf.PI) {
 			inc = -inc;
-			right=!right;
+			right = !right;
 		}
+	}
+
+	void firstForm() {
+		int rand = (int)(Random.value * 10);
+		switch (rand) {
+		case 0:
+			CrossBlast();
+			break;
+		default:
+			break;
+		}
+	}
+
+	void CrossBlast() {
+		//Shooting
+		for (int x=-1; x < 2; x+=2) {
+			for (int y=-1; y < 2; y+=2) {
+				GameObject clone = (GameObject)Instantiate(EnemyProjectile, transform.position, Quaternion.identity);
+				clone.GetComponent<Rigidbody2D>().velocity = SpeedOfBullet * new Vector3(x,y,0);
+
+			}
+		}
+
 	}
 }
