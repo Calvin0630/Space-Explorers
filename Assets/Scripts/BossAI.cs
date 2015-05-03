@@ -26,7 +26,7 @@ public class BossAI : Enemy {
 
 		XPos = 0;
 		BossHP = BossMHP = BossHPList[0];
-		overlay.BossMode = true;
+
 	}
 
 	void Death() {
@@ -45,9 +45,12 @@ public class BossAI : Enemy {
 
 	// Update is called once per frame
 	protected override void ActiveUpdate () {
+		overlay.BossMode = true;
 		if (delay > 0) {
+			base.ActiveUpdate();
 			initialpostion = transform.position;
 			delay--;
+			return;
 		}
 		Death ();
 		Movement();
