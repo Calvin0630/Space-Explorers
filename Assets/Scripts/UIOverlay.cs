@@ -54,5 +54,6 @@ public class UIOverlay : MonoBehaviour {
     
 	void Awake() {
 		Application.targetFrameRate = 300;
+		RenderSettings.ambientLight = Color.white;
 	}
 }

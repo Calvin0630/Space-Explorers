@@ -5,11 +5,11 @@ public class Enemy : EdgeColider {
     public int ShotDelay;
     public float SpeedOfBullet;
 	protected int ShotCounter;
-	protected const float BaseVelocity = 0.025f;
+	protected const float BaseVelocity = 0.05f;
 	public bool active;
     public GameObject EnemyProjectile;
     int Destination;
-    public float ShotAccuracy; //higher is less accurate
+    public float ShotAccuracy; //higher is less accurated
     protected Vector3 PlayerPos;
 
 	// Use this for initialization

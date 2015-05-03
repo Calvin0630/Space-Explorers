@@ -23,7 +23,7 @@ public class BossAI : Enemy {
 	protected override void  Start () {
 		base.Start ();
 		right = true;
-		initialpostion = transform.position;
+
 		XPos = 0;
 		BossHP = BossMHP = BossHPList[0];
 		overlay.BossMode = true;
@@ -46,6 +46,7 @@ public class BossAI : Enemy {
 	// Update is called once per frame
 	protected override void ActiveUpdate () {
 		if (delay > 0) {
+			initialpostion = transform.position;
 			delay--;
 		}
 		Death ();
