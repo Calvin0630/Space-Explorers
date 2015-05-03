@@ -12,6 +12,7 @@ public class PlayerShip : EdgeColider {
     Vector3 MousePos;
     Vector3 PlayerToMouse;
     public GameObject Projectile;
+    public GameObject GoatProjectile;
     public static Vector3 PlayerPos;
     Rigidbody2D RBody;
     public int Health;
@@ -61,6 +62,16 @@ public class PlayerShip : EdgeColider {
             if (Count > ShotDelay) {
                 Count = 0;
                 GameObject clone = (GameObject)Instantiate(Projectile, transform.position, Quaternion.identity);
+                MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                PlayerToMouse = MousePos - transform.position;
+                PlayerToMouse = new Vector3(PlayerToMouse.x, PlayerToMouse.y, 0);
+                clone.GetComponent<Rigidbody2D>().velocity = SpeedOfBullet * GetUnitVector(PlayerToMouse) + new Vector3(0, CurrentSpeedY, 0);
+            }
+        }
+        if (Input.GetMouseButton(1)) {
+            if (Count > ShotDelay) {
+                Count = 0;
+                GameObject clone = (GameObject)Instantiate(GoatProjectile, transform.position, Quaternion.identity);
                 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 PlayerToMouse = MousePos - transform.position;
                 PlayerToMouse = new Vector3(PlayerToMouse.x, PlayerToMouse.y, 0);
