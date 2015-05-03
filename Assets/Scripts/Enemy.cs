@@ -25,6 +25,9 @@ public class Enemy : EdgeColider {
 	// Update is dispatched to active/inactive states
 	void Update () {
 
+		if (hTop)
+			active = true;
+
 		if (hBottom) {
 			Destroy (this.gameObject);
 			return;
