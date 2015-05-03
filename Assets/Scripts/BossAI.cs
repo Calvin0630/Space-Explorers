@@ -12,8 +12,8 @@ public class BossAI : MonoBehaviour {
 	public float BossHP;
 	public float BossMHP;
 	public float[] BossHPList;
-	public float SpeedOfBullet;
-	public GameObject EnemyProjectile;
+	//public float SpeedOfBullet;
+	//public GameObject EnemyProjectile;
 	public int formNumber;
 	public UIOverlay overlay;
 
