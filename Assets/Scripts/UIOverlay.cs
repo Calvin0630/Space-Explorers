@@ -12,11 +12,20 @@ public class UIOverlay : MonoBehaviour {
 	public bool Survival;
 	public bool BossMode;
 	public BossAI boss;
+    GameObject Player;
+
 
 	float BossRHP;
 	float timer = 0.0f;
+    void Start() {
+        Player = GameObject.FindWithTag("Friendly");
+        Debug.Log(Player.GetComponent<Transform>().position);
+        
+    }
+
+
 	void OnGUI () {
-		if (Survival == true) {
+		/*if (Survival == true) {
 			timer += Time.deltaTime;
 			int Second = (int)Mathf.Floor (timer % 60);
 			int Minute = (int)Mathf.Floor (timer / 60);
@@ -24,7 +33,7 @@ public class UIOverlay : MonoBehaviour {
 			//string Min = Minute.ToString ();
 			string Tine = string.Format ("{0:00}:{1:00}", Minute, Second);
 			GUI.Box (new Rect (10, 10, 100, 50), Tine);
-		}
+		}*/
 		if (BossMode == true) {
 			BossRHP = boss.BossHP / boss.BossMHP;
 			
@@ -33,7 +42,16 @@ public class UIOverlay : MonoBehaviour {
 			
 //			GUI.EndGroup ();
 		}
+
+        
 	}
+
+    void Update() {
+        GameObject.Find("HealthText").GetComponent<Text>().text = "Health: " + Player.GetComponent<PlayerShip>().Health;
+        GameObject.Find("MaxScoreText").GetComponent<Text>().text = "Score: " + Player.GetComponent<PlayerShip>().PeakScore;
+    }
+
+    
 	void Awake() {
 		Application.targetFrameRate = 300;
 	}
