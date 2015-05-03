@@ -222,6 +222,9 @@ ModelImporter:
     100428: bn_tentacle1_root016
     100430: bn_tentacle1_root017
     100432: bn_tentacle1_root018
+    100434: eye1
+    100436: eye2
+    100438: robotSquid
     400000: anim_tentacle1_b_controller01
     400002: anim_tentacle1_b_controller010
     400004: anim_tentacle1_b_controller02
@@ -439,6 +442,13 @@ ModelImporter:
     400428: bn_tentacle1_root016
     400430: bn_tentacle1_root017
     400432: bn_tentacle1_root018
+    400434: eye1
+    400436: eye2
+    400438: robotSquid
+    2300000: eye1
+    2300002: eye2
+    3300000: eye1
+    3300002: eye2
     4300000: roboSquidBody
     4300002: tentacleMesh01
     4300004: tentacleMesh02
@@ -450,6 +460,8 @@ ModelImporter:
     4300016: tentacleMesh08
     4300018: tentacleMesh09
     4300020: tentacleMesh010
+    4300022: eye1
+    4300024: eye2
     7400000: RoboSquid
     7400002: CreepyStance
     7400004: Swimming
