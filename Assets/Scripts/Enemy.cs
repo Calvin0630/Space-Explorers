@@ -2,8 +2,9 @@
 using System.Collections;
 
 public class Enemy : EdgeColider {
-    public float ShotDelay;
+    public int ShotDelay;
     public float SpeedOfBullet;
+	protected int ShotCounter;
 	protected const float BaseVelocity = 0.05f;
 	public bool active;
     public GameObject EnemyProjectile;
@@ -24,7 +25,7 @@ public class Enemy : EdgeColider {
 	
 	// Update is dispatched to active/inactive states
 	void Update () {
-
+		ShotCounter = (ShotCounter + 1) % ShotDelay;
 		if (hTop)
 			active = true;
 
@@ -32,7 +33,6 @@ public class Enemy : EdgeColider {
 			Destroy (this.gameObject);
 			return;
 		}
-
 		if (active) {
 			ActiveUpdate ();
 		} else {
@@ -41,7 +41,7 @@ public class Enemy : EdgeColider {
 	}
 
 	protected virtual void InactiveUpdate() {
-		//this.transform.position += BaseVelocity * Vector3.down;
+		this.transform.position += BaseVelocity * Vector3.down;
 	}
 
 	protected virtual void ActiveUpdate () {
