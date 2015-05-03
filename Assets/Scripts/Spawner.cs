@@ -14,12 +14,12 @@ public class Spawner : MonoBehaviour {
     void Start() {
         FirstList = new List<Enemy>();
         //goes from top right to left middle
-        StartCoroutine(SpawnCoroutine1(FirstPath[0], FirstList, 10, .1f));
+        //StartCoroutine(SpawnCoroutine1(FirstPath[0], FirstList, 10, .1f));
     }
 
     // Update is called once per frame
     void Update() {
-        MoveMethod1(FirstList, FirstPath);
+        //MoveMethod1(FirstList, FirstPath);
     }
 
     IEnumerator SpawnCoroutine1(Vector3 Location, List<Enemy> list, int NumberOfEnemies, float Delay) {
