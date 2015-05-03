@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class Enemy : EdgeColider {
-    public float ShotDelay;
+    public int ShotDelay;
     public float SpeedOfBullet;
-	protected const float BaseVelocity = 0.05f;
+	protected int ShotCounter;
+	protected const float BaseVelocity = 0.025f;
 	public bool active;
     public GameObject EnemyProjectile;
     int Destination;
@@ -15,8 +16,8 @@ public class Enemy : EdgeColider {
 	void Start () {
 
 		// dirty fab hack
-		this.gameObject.GetComponent<Rigidbody2D> ().isKinematic = true;
-		this.gameObject.GetComponent<CircleCollider2D>().isTrigger = true;
+		//this.gameObject.GetComponent<Rigidbody2D> ().isKinematic = true;
+		//this.gameObject.GetComponent<CircleCollider2D>().isTrigger = true;
 
 		active = false;
         PlayerPos = PlayerShip.PlayerPos;
@@ -24,7 +25,7 @@ public class Enemy : EdgeColider {
 	
 	// Update is dispatched to active/inactive states
 	void Update () {
-
+		ShotCounter = (ShotCounter + 1) % ShotDelay;
 		if (hTop)
 			active = true;
 
@@ -32,7 +33,6 @@ public class Enemy : EdgeColider {
 			Destroy (this.gameObject);
 			return;
 		}
-
 		if (active) {
 			ActiveUpdate ();
 		} else {
@@ -41,12 +41,12 @@ public class Enemy : EdgeColider {
 	}
 
 	protected virtual void InactiveUpdate() {
-		//this.transform.position += BaseVelocity * Vector3.down;
+		this.transform.position += BaseVelocity * Vector3.down;
 	}
 
 	protected virtual void ActiveUpdate () {
         PlayerPos = PlayerShip.PlayerPos;
-        
+		this.transform.position += BaseVelocity * Vector3.down;
 	}
 
 

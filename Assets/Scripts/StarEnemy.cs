@@ -5,8 +5,8 @@ public class StarEnemy : Enemy {
     public float StarShotDelay;
     
     protected override void ActiveUpdate() {
-        //Debug.Log(Time.time);
-        if (Time.time % StarShotDelay == 0) {
+		base.ActiveUpdate ();
+		if (ShotCounter == 0) {
             for (int i = -1; i < 2; i++) {
                 for (int j = -1; j < 2; j++) {
                     if (i == 0 && j == 0) j++;

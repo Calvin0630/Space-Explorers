@@ -10,22 +10,22 @@ public class EdgeColider : MonoBehaviour {
 		frame = GameObject.Find("Frame").GetComponent<Frame>();
 	}
 
-		void OnTriggerEnter2D(Collider2D c) {
-
-			if (c.gameObject.Equals(frame.TopCube)) {
-					hTop = true;
-			}
-			if (c.gameObject.Equals(frame.BottomCube)) {
-				hBottom = true;
-			}
-			if (c.gameObject.Equals(frame.LeftCube)) {
-				hLeft = true;
-			}
-			if (c.gameObject.Equals(frame.RightCube)) {
-				hRight = true;
-			}
-
+	void OnTriggerEnter2D(Collider2D c) {
+		print ("Triggered: "+this);
+		if (c.gameObject.Equals(frame.TopCube)) {
+				hTop = true;
 		}
+		if (c.gameObject.Equals(frame.BottomCube)) {
+			hBottom = true;
+		}
+		if (c.gameObject.Equals(frame.LeftCube)) {
+			hLeft = true;
+		}
+		if (c.gameObject.Equals(frame.RightCube)) {
+			hRight = true;
+		}
+
+	}
 
 	void OnTriggerExit2D(Collider2D c) {
 		if (c.gameObject.Equals(frame.TopCube)) {
