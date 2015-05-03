@@ -522,341 +522,363 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: be_root01
+      - path: eye1
         weight: 1
-      - path: be_root01/bn_body01
+      - path: eye2
         weight: 1
-      - path: be_root01/bn_body01/bn_head01
+      - path: robotSquid
         weight: 1
-      - path: be_root01/bn_body01/bn_head01/be_head01
+      - path: robotSquid/be_root01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001
+      - path: robotSquid/be_root01/bn_body01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001
+      - path: robotSquid/be_root01/bn_body01/bn_head01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001
+      - path: robotSquid/be_root01/bn_body01/bn_head01/be_head01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001/bn_tentacle1_f001
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001/bn_tentacle1_f001/be_tentacle0110
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001/bn_tentacle1_f001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001/bn_tentacle1_f001/be_tentacle0110
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01/bn_tentacle1_f01/be_tentacle011
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01/bn_tentacle1_f01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01/bn_tentacle1_f01/be_tentacle011
+        weight: 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011
+        weight: 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
           1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1/bn_tentacle1_d01 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1/bn_tentacle1_d01 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01 1/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01
           1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01 1/bn_tentacle1_f01
-          1/be_tentacle011 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01
+          1/bn_tentacle1_f01 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01
+          1/bn_tentacle1_f01 1/be_tentacle011 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
           2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2/bn_tentacle1_d01 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2/bn_tentacle1_d01 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01 2/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01
           2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01 2/bn_tentacle1_f01
-          2/be_tentacle011 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01
+          2/bn_tentacle1_f01 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01
+          2/bn_tentacle1_f01 2/be_tentacle011 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
           3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3/bn_tentacle1_d01 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3/bn_tentacle1_d01 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01 3/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01
           3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01 3/bn_tentacle1_f01
-          3/be_tentacle011 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01
+          3/bn_tentacle1_f01 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01
+          3/bn_tentacle1_f01 3/be_tentacle011 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
           4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4/bn_tentacle1_d01 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4/bn_tentacle1_d01 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01 4/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01
           4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01 4/bn_tentacle1_f01
-          4/be_tentacle011 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01
+          4/bn_tentacle1_f01 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01
+          4/bn_tentacle1_f01 4/be_tentacle011 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
           5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5/bn_tentacle1_d01 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5/bn_tentacle1_d01 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01 5/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01
           5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01 5/bn_tentacle1_f01
-          5/be_tentacle011 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01
+          5/bn_tentacle1_f01 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01
+          5/bn_tentacle1_f01 5/be_tentacle011 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
           6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6/bn_tentacle1_d01 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6/bn_tentacle1_d01 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01 6/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01
           6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01 6/bn_tentacle1_f01
-          6/be_tentacle011 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01
+          6/bn_tentacle1_f01 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01
+          6/bn_tentacle1_f01 6/be_tentacle011 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
           7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7/bn_tentacle1_d01 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7/bn_tentacle1_d01 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01 7/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01
           7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01 7/bn_tentacle1_f01
-          7/be_tentacle011 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01
+          7/bn_tentacle1_f01 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01
+          7/bn_tentacle1_f01 7/be_tentacle011 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
           8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8/bn_tentacle1_d01 8
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01 8
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8/bn_tentacle1_d01 8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01 8/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01
           8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01 8/bn_tentacle1_f01
-          8/be_tentacle101
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01
+          8/bn_tentacle1_f01 8
         weight: 1
-      - path: iks
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01
+          8/bn_tentacle1_f01 8/be_tentacle101
         weight: 1
-      - path: iks/ikHandle9
+      - path: robotSquid/iks
         weight: 1
-      - path: iks/ikHandle10
+      - path: robotSquid/iks/ikHandle9
         weight: 1
-      - path: iks/rpIK_Leg1
+      - path: robotSquid/iks/ikHandle10
         weight: 1
-      - path: iks/rpIK_Leg2
+      - path: robotSquid/iks/rpIK_Leg1
         weight: 1
-      - path: iks/rpIK_Leg3
+      - path: robotSquid/iks/rpIK_Leg2
         weight: 1
-      - path: iks/rpIK_Leg4
+      - path: robotSquid/iks/rpIK_Leg3
         weight: 1
-      - path: iks/rpIK_Leg5
+      - path: robotSquid/iks/rpIK_Leg4
         weight: 1
-      - path: iks/rpIK_Leg6
+      - path: robotSquid/iks/rpIK_Leg5
         weight: 1
-      - path: iks/rpIK_Leg7
+      - path: robotSquid/iks/rpIK_Leg6
         weight: 1
-      - path: iks/rpIK_Leg8
+      - path: robotSquid/iks/rpIK_Leg7
         weight: 1
-      - path: roboSquidBody
+      - path: robotSquid/iks/rpIK_Leg8
         weight: 1
-      - path: tentacle01
+      - path: robotSquid/roboSquidBody
         weight: 1
-      - path: tentacle01/anim_tentacle1_b_controller01
+      - path: robotSquid/tentacle01
         weight: 1
-      - path: tentacle01/tentacle1_a_controller01
+      - path: robotSquid/tentacle01/anim_tentacle1_b_controller01
         weight: 1
-      - path: tentacle01/tentacleMesh01
+      - path: robotSquid/tentacle01/tentacle1_a_controller01
         weight: 1
-      - path: tentacle02
+      - path: robotSquid/tentacle01/tentacleMesh01
         weight: 1
-      - path: tentacle02/anim_tentacle1_b_controller02
+      - path: robotSquid/tentacle02
         weight: 1
-      - path: tentacle02/tentacle1_a_controller02
+      - path: robotSquid/tentacle02/anim_tentacle1_b_controller02
         weight: 1
-      - path: tentacle02/tentacleMesh02
+      - path: robotSquid/tentacle02/tentacle1_a_controller02
         weight: 1
-      - path: tentacle03
+      - path: robotSquid/tentacle02/tentacleMesh02
         weight: 1
-      - path: tentacle03/anim_tentacle1_b_controller02 1
+      - path: robotSquid/tentacle03
         weight: 1
-      - path: tentacle03/tentacle1_a_controller02 1
+      - path: robotSquid/tentacle03/anim_tentacle1_b_controller02 1
         weight: 1
-      - path: tentacle03/tentacleMesh02 1
+      - path: robotSquid/tentacle03/tentacle1_a_controller02 1
         weight: 1
-      - path: tentacle04
+      - path: robotSquid/tentacle03/tentacleMesh02 1
         weight: 1
-      - path: tentacle04/anim_tentacle1_b_controller04
+      - path: robotSquid/tentacle04
         weight: 1
-      - path: tentacle04/tentacle1_a_controller04
+      - path: robotSquid/tentacle04/anim_tentacle1_b_controller04
         weight: 1
-      - path: tentacle04/tentacleMesh04
+      - path: robotSquid/tentacle04/tentacle1_a_controller04
         weight: 1
-      - path: tentacle05
+      - path: robotSquid/tentacle04/tentacleMesh04
         weight: 1
-      - path: tentacle05/anim_tentacle1_b_controller05
+      - path: robotSquid/tentacle05
         weight: 1
-      - path: tentacle05/tentacle1_a_controller05
+      - path: robotSquid/tentacle05/anim_tentacle1_b_controller05
         weight: 1
-      - path: tentacle05/tentacleMesh05
+      - path: robotSquid/tentacle05/tentacle1_a_controller05
         weight: 1
-      - path: tentacle06
+      - path: robotSquid/tentacle05/tentacleMesh05
         weight: 1
-      - path: tentacle06/anim_tentacle1_b_controller06
+      - path: robotSquid/tentacle06
         weight: 1
-      - path: tentacle06/tentacle1_a_controller06
+      - path: robotSquid/tentacle06/anim_tentacle1_b_controller06
         weight: 1
-      - path: tentacle06/tentacleMesh06
+      - path: robotSquid/tentacle06/tentacle1_a_controller06
         weight: 1
-      - path: tentacle07
+      - path: robotSquid/tentacle06/tentacleMesh06
         weight: 1
-      - path: tentacle07/anim_tentacle1_b_controller07
+      - path: robotSquid/tentacle07
         weight: 1
-      - path: tentacle07/tentacle1_a_controller07
+      - path: robotSquid/tentacle07/anim_tentacle1_b_controller07
         weight: 1
-      - path: tentacle07/tentacleMesh07
+      - path: robotSquid/tentacle07/tentacle1_a_controller07
         weight: 1
-      - path: tentacle08
+      - path: robotSquid/tentacle07/tentacleMesh07
         weight: 1
-      - path: tentacle08/anim_tentacle1_b_controller08
+      - path: robotSquid/tentacle08
         weight: 1
-      - path: tentacle08/tentacle1_a_controller08
+      - path: robotSquid/tentacle08/anim_tentacle1_b_controller08
         weight: 1
-      - path: tentacle08/tentacleMesh08
+      - path: robotSquid/tentacle08/tentacle1_a_controller08
         weight: 1
-      - path: tentacle09
+      - path: robotSquid/tentacle08/tentacleMesh08
         weight: 1
-      - path: tentacle09/anim_tentacle1_b_controller09
+      - path: robotSquid/tentacle09
         weight: 1
-      - path: tentacle09/tentacle1_a_controller09
+      - path: robotSquid/tentacle09/anim_tentacle1_b_controller09
         weight: 1
-      - path: tentacle09/tentacleMesh09
+      - path: robotSquid/tentacle09/tentacle1_a_controller09
         weight: 1
-      - path: tentacle010
+      - path: robotSquid/tentacle09/tentacleMesh09
         weight: 1
-      - path: tentacle010/anim_tentacle1_b_controller010
+      - path: robotSquid/tentacle010
         weight: 1
-      - path: tentacle010/tentacle1_a_controller010
+      - path: robotSquid/tentacle010/anim_tentacle1_b_controller010
         weight: 1
-      - path: tentacle010/tentacleMesh010
+      - path: robotSquid/tentacle010/tentacle1_a_controller010
+        weight: 1
+      - path: robotSquid/tentacle010/tentacleMesh010
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
@@ -886,341 +908,363 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: be_root01
+      - path: eye1
         weight: 1
-      - path: be_root01/bn_body01
+      - path: eye2
         weight: 1
-      - path: be_root01/bn_body01/bn_head01
+      - path: robotSquid
         weight: 1
-      - path: be_root01/bn_body01/bn_head01/be_head01
+      - path: robotSquid/be_root01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001
+      - path: robotSquid/be_root01/bn_body01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001
+      - path: robotSquid/be_root01/bn_body01/bn_head01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001
+      - path: robotSquid/be_root01/bn_body01/bn_head01/be_head01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001/bn_tentacle1_f001
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001/bn_tentacle1_f001/be_tentacle0110
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001/bn_tentacle1_f001
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root001/bn_tentacle1_a001/bn_tentacle1_b001/bn_tentacle1_c001/bn_tentacle1_d001/bn_tentacle1_e001/bn_tentacle1_f001/be_tentacle0110
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01/bn_tentacle1_f01/be_tentacle011
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01/bn_tentacle1_f01
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root01/bn_tentacle1_a01/bn_tentacle1_b01/bn_tentacle1_c01/bn_tentacle1_d01/bn_tentacle1_e01/bn_tentacle1_f01/be_tentacle011
+        weight: 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011
+        weight: 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
           1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1/bn_tentacle1_d01 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1/bn_tentacle1_d01 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01 1/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01
           1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01 1/bn_tentacle1_b01
-          1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01 1/bn_tentacle1_f01
-          1/be_tentacle011 1
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01
+          1/bn_tentacle1_f01 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root011/bn_tentacle1_a01
+          1/bn_tentacle1_b01 1/bn_tentacle1_c01 1/bn_tentacle1_d01 1/bn_tentacle1_e01
+          1/bn_tentacle1_f01 1/be_tentacle011 1
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
           2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2/bn_tentacle1_d01 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2/bn_tentacle1_d01 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01 2/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01
           2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01 2/bn_tentacle1_b01
-          2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01 2/bn_tentacle1_f01
-          2/be_tentacle011 2
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01
+          2/bn_tentacle1_f01 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root012/bn_tentacle1_a01
+          2/bn_tentacle1_b01 2/bn_tentacle1_c01 2/bn_tentacle1_d01 2/bn_tentacle1_e01
+          2/bn_tentacle1_f01 2/be_tentacle011 2
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
           3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3/bn_tentacle1_d01 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3/bn_tentacle1_d01 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01 3/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01
           3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01 3/bn_tentacle1_b01
-          3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01 3/bn_tentacle1_f01
-          3/be_tentacle011 3
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01
+          3/bn_tentacle1_f01 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root013/bn_tentacle1_a01
+          3/bn_tentacle1_b01 3/bn_tentacle1_c01 3/bn_tentacle1_d01 3/bn_tentacle1_e01
+          3/bn_tentacle1_f01 3/be_tentacle011 3
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
           4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4/bn_tentacle1_d01 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4/bn_tentacle1_d01 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01 4/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01
           4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01 4/bn_tentacle1_b01
-          4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01 4/bn_tentacle1_f01
-          4/be_tentacle011 4
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01
+          4/bn_tentacle1_f01 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root014/bn_tentacle1_a01
+          4/bn_tentacle1_b01 4/bn_tentacle1_c01 4/bn_tentacle1_d01 4/bn_tentacle1_e01
+          4/bn_tentacle1_f01 4/be_tentacle011 4
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
           5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5/bn_tentacle1_d01 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5/bn_tentacle1_d01 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01 5/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01
           5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01 5/bn_tentacle1_b01
-          5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01 5/bn_tentacle1_f01
-          5/be_tentacle011 5
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01
+          5/bn_tentacle1_f01 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root015/bn_tentacle1_a01
+          5/bn_tentacle1_b01 5/bn_tentacle1_c01 5/bn_tentacle1_d01 5/bn_tentacle1_e01
+          5/bn_tentacle1_f01 5/be_tentacle011 5
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
           6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6/bn_tentacle1_d01 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6/bn_tentacle1_d01 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01 6/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01
           6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01 6/bn_tentacle1_b01
-          6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01 6/bn_tentacle1_f01
-          6/be_tentacle011 6
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01
+          6/bn_tentacle1_f01 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root016/bn_tentacle1_a01
+          6/bn_tentacle1_b01 6/bn_tentacle1_c01 6/bn_tentacle1_d01 6/bn_tentacle1_e01
+          6/bn_tentacle1_f01 6/be_tentacle011 6
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
           7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7/bn_tentacle1_d01 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7/bn_tentacle1_d01 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01 7/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01
           7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01 7/bn_tentacle1_b01
-          7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01 7/bn_tentacle1_f01
-          7/be_tentacle011 7
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01
+          7/bn_tentacle1_f01 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root017/bn_tentacle1_a01
+          7/bn_tentacle1_b01 7/bn_tentacle1_c01 7/bn_tentacle1_d01 7/bn_tentacle1_e01
+          7/bn_tentacle1_f01 7/be_tentacle011 7
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
           8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8/bn_tentacle1_d01 8
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01 8
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8/bn_tentacle1_d01 8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01 8/bn_tentacle1_f01
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01
           8
         weight: 1
-      - path: be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01 8/bn_tentacle1_b01
-          8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01 8/bn_tentacle1_f01
-          8/be_tentacle101
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01
+          8/bn_tentacle1_f01 8
         weight: 1
-      - path: iks
+      - path: robotSquid/be_root01/bn_body01/bn_tentacle1_root018/bn_tentacle1_a01
+          8/bn_tentacle1_b01 8/bn_tentacle1_c01 8/bn_tentacle1_d01 8/bn_tentacle1_e01
+          8/bn_tentacle1_f01 8/be_tentacle101
         weight: 1
-      - path: iks/ikHandle9
+      - path: robotSquid/iks
         weight: 1
-      - path: iks/ikHandle10
+      - path: robotSquid/iks/ikHandle9
         weight: 1
-      - path: iks/rpIK_Leg1
+      - path: robotSquid/iks/ikHandle10
         weight: 1
-      - path: iks/rpIK_Leg2
+      - path: robotSquid/iks/rpIK_Leg1
         weight: 1
-      - path: iks/rpIK_Leg3
+      - path: robotSquid/iks/rpIK_Leg2
         weight: 1
-      - path: iks/rpIK_Leg4
+      - path: robotSquid/iks/rpIK_Leg3
         weight: 1
-      - path: iks/rpIK_Leg5
+      - path: robotSquid/iks/rpIK_Leg4
         weight: 1
-      - path: iks/rpIK_Leg6
+      - path: robotSquid/iks/rpIK_Leg5
         weight: 1
-      - path: iks/rpIK_Leg7
+      - path: robotSquid/iks/rpIK_Leg6
         weight: 1
-      - path: iks/rpIK_Leg8
+      - path: robotSquid/iks/rpIK_Leg7
         weight: 1
-      - path: roboSquidBody
+      - path: robotSquid/iks/rpIK_Leg8
         weight: 1
-      - path: tentacle01
+      - path: robotSquid/roboSquidBody
         weight: 1
-      - path: tentacle01/anim_tentacle1_b_controller01
+      - path: robotSquid/tentacle01
         weight: 1
-      - path: tentacle01/tentacle1_a_controller01
+      - path: robotSquid/tentacle01/anim_tentacle1_b_controller01
         weight: 1
-      - path: tentacle01/tentacleMesh01
+      - path: robotSquid/tentacle01/tentacle1_a_controller01
         weight: 1
-      - path: tentacle02
+      - path: robotSquid/tentacle01/tentacleMesh01
         weight: 1
-      - path: tentacle02/anim_tentacle1_b_controller02
+      - path: robotSquid/tentacle02
         weight: 1
-      - path: tentacle02/tentacle1_a_controller02
+      - path: robotSquid/tentacle02/anim_tentacle1_b_controller02
         weight: 1
-      - path: tentacle02/tentacleMesh02
+      - path: robotSquid/tentacle02/tentacle1_a_controller02
         weight: 1
-      - path: tentacle03
+      - path: robotSquid/tentacle02/tentacleMesh02
         weight: 1
-      - path: tentacle03/anim_tentacle1_b_controller02 1
+      - path: robotSquid/tentacle03
         weight: 1
-      - path: tentacle03/tentacle1_a_controller02 1
+      - path: robotSquid/tentacle03/anim_tentacle1_b_controller02 1
         weight: 1
-      - path: tentacle03/tentacleMesh02 1
+      - path: robotSquid/tentacle03/tentacle1_a_controller02 1
         weight: 1
-      - path: tentacle04
+      - path: robotSquid/tentacle03/tentacleMesh02 1
         weight: 1
-      - path: tentacle04/anim_tentacle1_b_controller04
+      - path: robotSquid/tentacle04
         weight: 1
-      - path: tentacle04/tentacle1_a_controller04
+      - path: robotSquid/tentacle04/anim_tentacle1_b_controller04
         weight: 1
-      - path: tentacle04/tentacleMesh04
+      - path: robotSquid/tentacle04/tentacle1_a_controller04
         weight: 1
-      - path: tentacle05
+      - path: robotSquid/tentacle04/tentacleMesh04
         weight: 1
-      - path: tentacle05/anim_tentacle1_b_controller05
+      - path: robotSquid/tentacle05
         weight: 1
-      - path: tentacle05/tentacle1_a_controller05
+      - path: robotSquid/tentacle05/anim_tentacle1_b_controller05
         weight: 1
-      - path: tentacle05/tentacleMesh05
+      - path: robotSquid/tentacle05/tentacle1_a_controller05
         weight: 1
-      - path: tentacle06
+      - path: robotSquid/tentacle05/tentacleMesh05
         weight: 1
-      - path: tentacle06/anim_tentacle1_b_controller06
+      - path: robotSquid/tentacle06
         weight: 1
-      - path: tentacle06/tentacle1_a_controller06
+      - path: robotSquid/tentacle06/anim_tentacle1_b_controller06
         weight: 1
-      - path: tentacle06/tentacleMesh06
+      - path: robotSquid/tentacle06/tentacle1_a_controller06
         weight: 1
-      - path: tentacle07
+      - path: robotSquid/tentacle06/tentacleMesh06
         weight: 1
-      - path: tentacle07/anim_tentacle1_b_controller07
+      - path: robotSquid/tentacle07
         weight: 1
-      - path: tentacle07/tentacle1_a_controller07
+      - path: robotSquid/tentacle07/anim_tentacle1_b_controller07
         weight: 1
-      - path: tentacle07/tentacleMesh07
+      - path: robotSquid/tentacle07/tentacle1_a_controller07
         weight: 1
-      - path: tentacle08
+      - path: robotSquid/tentacle07/tentacleMesh07
         weight: 1
-      - path: tentacle08/anim_tentacle1_b_controller08
+      - path: robotSquid/tentacle08
         weight: 1
-      - path: tentacle08/tentacle1_a_controller08
+      - path: robotSquid/tentacle08/anim_tentacle1_b_controller08
         weight: 1
-      - path: tentacle08/tentacleMesh08
+      - path: robotSquid/tentacle08/tentacle1_a_controller08
         weight: 1
-      - path: tentacle09
+      - path: robotSquid/tentacle08/tentacleMesh08
         weight: 1
-      - path: tentacle09/anim_tentacle1_b_controller09
+      - path: robotSquid/tentacle09
         weight: 1
-      - path: tentacle09/tentacle1_a_controller09
+      - path: robotSquid/tentacle09/anim_tentacle1_b_controller09
         weight: 1
-      - path: tentacle09/tentacleMesh09
+      - path: robotSquid/tentacle09/tentacle1_a_controller09
         weight: 1
-      - path: tentacle010
+      - path: robotSquid/tentacle09/tentacleMesh09
         weight: 1
-      - path: tentacle010/anim_tentacle1_b_controller010
+      - path: robotSquid/tentacle010
         weight: 1
-      - path: tentacle010/tentacle1_a_controller010
+      - path: robotSquid/tentacle010/anim_tentacle1_b_controller010
         weight: 1
-      - path: tentacle010/tentacleMesh010
+      - path: robotSquid/tentacle010/tentacle1_a_controller010
+        weight: 1
+      - path: robotSquid/tentacle010/tentacleMesh010
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
