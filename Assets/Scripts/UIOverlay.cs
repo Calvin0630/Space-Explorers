@@ -34,4 +34,7 @@ public class UIOverlay : MonoBehaviour {
 //			GUI.EndGroup ();
 		}
 	}
+	void Awake() {
+		Application.targetFrameRate = 300;
+	}
 }

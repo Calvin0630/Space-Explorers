@@ -3,17 +3,8 @@ using System.Collections;
 
 public class StarEnemy : Enemy {
     public float StarShotDelay;
-
-    void Start() {
-
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
-    }
     
-    void FixedUpdate() {
+    protected override void ActiveUpdate() {
         //Debug.Log(Time.time);
         if (Time.time % StarShotDelay == 0) {
             for (int i = -1; i < 2; i++) {

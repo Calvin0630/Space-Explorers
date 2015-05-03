@@ -4,7 +4,11 @@ using System.Collections;
 public class EdgeColider : MonoBehaviour {
 
 	public bool hLeft,hRight,hTop,hBottom;
-	public Frame frame;
+	private Frame frame;
+
+	void Awake() {
+		frame = GameObject.Find("Frame").GetComponent<Frame>();
+	}
 
 		void OnTriggerEnter2D(Collider2D c) {
 
