@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour {
                 new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0) * ShotAccuracy;
         }
     }
-    Vector3 GetUnitVector(Vector3 v) {
+    public Vector3 GetUnitVector(Vector3 v) {
         float r = Mathf.Sqrt(v.x * v.x + v.y * v.y);
         return v / r;
     }
